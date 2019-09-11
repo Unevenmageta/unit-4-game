@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+
+
     <link rel="stylesheet" href="assets/javascript/game.js">
 
 
@@ -19,7 +24,8 @@
         <div class="row">
             <!--Row one-->
 
-            <div class="col-4-sm">
+            <div id="title" class="col-4-sm">
+                <h1>Stone Collector</h1>
 
 
             </div>
@@ -40,16 +46,23 @@
         <div class="row">
             <!--Row two-->
 
-            <div class="col-6-sm">
+            <div id="instruction" class="col-6">
+                <div>
+                    Thanos is in search for the infinity stones once again. You and the other Avengers must collect them
+                    before he does. Each Infinity Stone will be given a random value and your Goal is to accumulate the
+                    values of the stones in a strategic order to match the number in the box. Good Luck Recruit!
+
+
+                </div>
 
 
             </div>
 
-            <div class="col-3-sm">
+            <div class="col-3">
                 <!--empty div-->
             </div>
 
-            <div class="col-3-sm">
+            <div class="col-3">
                 <!--empty div-->
             </div>
 
@@ -62,11 +75,34 @@
             <!--Row three-->
 
             <div class="col-4-sm">
+                <h1> Number to Reach:
+                    <span id="randomNum">
+
+                    </span>
+
+
+                </h1>
+
+
 
 
             </div>
 
             <div class="col-4-sm">
+                <h2> Wins:
+                    <span id="wins">
+
+                    </span>
+
+
+                </h2>
+
+                <h2>Loses:
+                    <span id="loses">
+
+                    </span>
+
+                </h2>
 
             </div>
 
@@ -80,26 +116,44 @@
         <div class="row">
             <!--Row Four-->
 
-            <div class="col-3-sm" class="crystal">
-                <img src="" alt="">
+            <div class="col-2">
+
+                <img class="crystal" id="mind" src="assets/images/Mind.jpg" alt="Mind">
 
 
             </div>
 
-            <div class="col-3-sm" class="crystal">
-                <img src="" alt="">
+            <div class="col-2">
+
+                <img class="crystal" src="assets/images/Reality.jpg" alt="Reality">
 
             </div>
 
-            <div class="col-3-sm" class="crystal">
-                <img src="" alt="">
+            <div class="col-2">
+
+                <img class="crystal" src="assets/images/Soul.jpg" alt="Soul">
 
             </div>
 
-            <div class="col-3-sm" class="crystal">
-                <img src="" alt="">
+            <div class="col-2">
+
+                <img class="crystal" src="assets/images/Space.jpg" alt="Space">
 
             </div>
+
+            <div class="col-2">
+
+                <img class="crystal" src="assets/images/Time.jpg" alt="Time">
+
+            </div>
+
+            <div class="col-2">
+
+                <img class="crystal" src="assets/images/power.jpg" alt="Power">
+
+            </div>
+
+
 
 
 
@@ -111,6 +165,10 @@
 
             <div class="col-4-sm">
 
+                <h3> Your score is
+
+                </h3>
+
 
             </div>
 
@@ -126,23 +184,28 @@
         </div>
 
         <div class="row">
-                <!--Row six-->
-    
-                <div class="col-4-sm">
-    
-    
-                </div>
-    
-                <div class="col-4-sm">
-                    <!--empty div-->
-                </div>
-    
-                <div class="col-4-sm">
-                    <!--empty div-->
-                </div>
-    
-    
+            <!--Row six-->
+
+            <div class="col-4-sm">
+                <h4>
+                    <span id="score">
+
+                    </span>
+                </h4>
+
+
             </div>
+
+            <div class="col-4-sm">
+                <!--empty div-->
+            </div>
+
+            <div class="col-4-sm">
+                <!--empty div-->
+            </div>
+
+
+        </div>
 
 
 
