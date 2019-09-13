@@ -7,13 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/reset.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-
-    <link rel="stylesheet" href="assets/javascript/game.js">
+    <script src="assets/javascript/game.js"></script>
 
 
 </head>
@@ -75,7 +79,7 @@
             <!--Row three-->
 
             <div class="col-4-sm">
-                <h1> Number to Reach:
+                <h1 id="reachNum"> Number to Reach:
                     <span id="randomNum">
 
                     </span>
@@ -87,22 +91,25 @@
 
 
             </div>
+            <br>
 
-            <div class="col-4-sm">
-                <h2> Wins:
+            <div class="col-4">
+                <h2 class="stats"> Wins:
                     <span id="wins">
 
                     </span>
 
 
                 </h2>
+                <br>
 
-                <h2>Loses:
+                <h2 class="stats">Loses:
                     <span id="loses">
 
                     </span>
 
                 </h2>
+                <br>
 
             </div>
 
@@ -125,33 +132,34 @@
 
             <div class="col-2">
 
-                <img class="crystal" src="assets/images/Reality.jpg" alt="Reality">
+                <img class="crystal" id="reality" src="assets/images/Reality.jpg" alt="Reality">
 
             </div>
 
             <div class="col-2">
 
-                <img class="crystal" src="assets/images/Soul.jpg" alt="Soul">
+                <img class="crystal" id="soul" src="assets/images/Soul.jpg" alt="Soul">
 
             </div>
 
             <div class="col-2">
 
-                <img class="crystal" src="assets/images/Space.jpg" alt="Space">
+                <img class="crystal" id="space" src="assets/images/Space.jpg" alt="Space">
 
             </div>
 
             <div class="col-2">
 
-                <img class="crystal" src="assets/images/Time.jpg" alt="Time">
+                <img class="crystal" id="time" src="assets/images/Time.jpg" alt="Time">
 
             </div>
 
             <div class="col-2">
 
-                <img class="crystal" src="assets/images/power.jpg" alt="Power">
+                <img class="crystal" id="power" src="assets/images/power.jpg" alt="Power">
 
             </div>
+
 
 
 
@@ -159,6 +167,7 @@
 
 
         </div>
+
 
         <div class="row">
             <!--Row five-->
@@ -201,12 +210,37 @@
             </div>
 
             <div class="col-4-sm">
-                <!--empty div-->
+                
             </div>
 
 
         </div>
 
+
+
+        <div class="row">
+            <!--Row seven-->
+
+            <div class="col-6-sm">
+                <h4>
+                    <span id="score">
+
+                    </span>
+                </h4>
+
+
+            </div>
+
+            <div class="col-2-sm">
+                <!--empty div-->
+            </div>
+
+            <div class="col-2-sm">
+                <button id ="reset"> Reset</button>
+            </div>
+
+
+        </div>
 
 
 

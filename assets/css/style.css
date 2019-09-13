@@ -1,24 +1,74 @@
+body{
+background-image: url("http://geekchicpro.com/wp-content/uploads/sp/space-with-stars-background-galaxy-and-vector.jpg");
+}
+
 #title{
+    color: yellow;
     font-size: 75px;
     font-family: cursive;
     padding: 20px;
 }
 
 #instruction{
-    
+    font-size: 20px;
+    color: red;
     width: 170px;
     padding: 20px;
 }
 
 .crystal{
-    float: left;
-height: 125px;
-width: 75px;
+
+float: left;
+height: 200px;
+width: 165px;
 padding:5px;
 }
 
-h3{
-    clear: both;
+#reachNum{
+    
+    font-size: 35px;
+    color: rgb(7, 122, 160);
     padding: 20px;
+    float: left;
+
+}
+
+.stats{
+
+    font-size: 35px;
+    
+    padding: 5px;
+    color:green;
+}
+
+
+
+
+
+h3{
+    
+    color: darkgoldenrod;
+    clear: both;
+    
+}
+
+
+#score{
+    
+font-size: 50px;
+color: springgreen;
+
+
+}
+
+
+#reset{
+    float: right;
+    
+    
+    color: green;
+    background-color:black;
+    padding:10px;
+
 }
 
